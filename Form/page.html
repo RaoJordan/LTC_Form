@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Travelling Allowance Reimbursement/Settlement Form for LTC</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Employee Code</span>
+            <input type="text" placeholder="Enter your Employee Code" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Department</span>
+            <input type="text" placeholder="Enter your Department" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Designation</span>
+            <input type="text" placeholder="Enter your Designation" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Pay Level</span>
+            <input type="text" placeholder="Enter your Pay Level" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Budget Head</span>
+            <input type="text" placeholder="₹" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Advanced Drawn</span>
+            <input type="text" placeholder="₹" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Account Number</span>
+            <input type="text" placeholder="(SBI/Other)" required>
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Start Date</span>
+            <input type="date" id="start-date" name="start-date">
+          </div>
+          <div class="input-box">
+            <span class="details">End Date</span>
+            <input type="date" id="end-date" name="end-date">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Reason For Leave:</span>
+            <textarea rows="4" cols="68"></textarea>
+        </div>
+
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Mode of Travel</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Roadways</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Train</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Air Flight</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="input-box">
+            <span class="details">Leave Type</span>
+            <select>
+            <option value="vacation">Vacation</option>
+            <option value="sick">Sick</option>
+            <option value="personal">Personal</option>
+            <option value="other">Other</option>
+            </select>
+        </div>
+
+        
+
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
